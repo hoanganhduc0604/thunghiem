@@ -114,7 +114,7 @@ a {
     font-size: 1.8rem;
     line-height: 1.5;
     letter-spacing: 0.01em;
-    color: #687691;
+    color: #687690;
 }
 
 .hero .title {
@@ -571,21 +571,26 @@ a {
 }
 
 .footer .heading {
-    color: #1C1C1D;
-    font-family: Lato;
-    font-size: 20px;
+    font-family: "Lato", sans-serif;
     font-weight: 700;
+    font-size: 2rem;
+    color: #1c1c1d;
 }
 
-.footer .desc, .footer .list {
+.footer .list,
+.footer .desc {
     margin-top: 42px;
 }
 
-.footer .item a, .footer .desc {
+.footer .item {
     margin-top: 18px;
-    color: #7A7A7E;
-    font-size: 16px;
+}
+
+.footer .item a,
+.footer .desc {
     font-weight: 400;
+    font-size: 1.6rem;
+    color: #7a7a7e;
     white-space: nowrap;
 }
 
@@ -595,10 +600,14 @@ a {
 }
 
 .footer .social {
+    display: flex;
     margin-top: 40px;
 }
 
 .footer .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 28px;
     height: 28px;
     border-radius: 3px;
