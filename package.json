@@ -1,0 +1,25 @@
+{
+  "name": "du-an-01",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000h\u0000u\u0000n\u0000g\u0000h\u0000i\u0000e\u0000m\u0000\r\u0000 \u0000#\u0000 \u0000t\u0000h\u0000u\u0000n\u0000g\u0000h\u0000i\u0000e\u0000m\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.3.0",
+    "@aws-amplify/backend-cli": "^1.2.8",
+    "aws-cdk": "^2.160.0",
+    "aws-cdk-lib": "^2.160.0",
+    "constructs": "^10.3.0",
+    "esbuild": "^0.24.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "aws-amplify": "^6.6.2"
+  }
+}
